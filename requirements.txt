@@ -18,7 +18,7 @@ joblib==1.0.0
 MarkupSafe==1.1.1
 networkx==2.5
 numpy
-pandas==1.2.1
+pandas
 plotly==4.14.3
 python-dateutil==2.8.1
 pytz==2020.5
