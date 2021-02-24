@@ -277,6 +277,7 @@ char_vals_uni = list({v['value']:v for v in l_char_vals}.values())
 char_met_dict = character_plot_data(l_plot_list)    
 
 app = dash.Dash(__name__)
+server = app.server
 
 #app layout here
 app.layout = html.Div([
@@ -673,4 +674,4 @@ def changeSeason(season):
 
 
 if __name__ == "__main__":
-    app.run_server(host='0.0.0.0', port=8050)
+    app.run_server()
