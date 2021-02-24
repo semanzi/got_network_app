@@ -278,6 +278,7 @@ char_met_dict = character_plot_data(l_plot_list)
 
 app = dash.Dash(__name__)
 server = app.server
+app.title = 'got-network-app'
 
 #app layout here
 app.layout = html.Div([
